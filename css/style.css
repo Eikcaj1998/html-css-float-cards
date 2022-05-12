@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    background-color: white;
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+h1{
+ color: #E53170;
+}
+.column{
+    width: calc(100/3);
+    float: left;
+    padding: 0 1rem;
+}
+.clearfix::after{
+    display: table;
+    clear: both;
+}
